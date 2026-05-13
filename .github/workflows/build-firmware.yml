@@ -24,7 +24,6 @@ jobs:
 
       - name: Build firmware
         run: |
-          cd Marlin
           pio run -e mks_monster8
 
       - name: Upload firmware artifact
